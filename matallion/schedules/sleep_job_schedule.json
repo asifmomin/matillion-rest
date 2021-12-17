@@ -1,0 +1,27 @@
+{
+    "objects": [
+        {
+            "name": "sleep_job_schedule",
+            "minute": "0/5",
+            "hour": "*",
+            "dayOfWeek": true,
+            "monday": true,
+            "tuesday": true,
+            "wednesday": true,
+            "thursday": true,
+            "friday": true,
+            "saturday": true,
+            "sunday": true,
+            "daysOfMonth": "",
+            "enabled": true,
+            "timezone": "UTC",
+            "versionName": "default",
+            "jobName": "sleep_Bash",
+            "environmentName": "snowflake_cdp",
+            "preventDuplicateJob": true,
+            "ignoreMisfires": false
+        }
+    ],
+    "version": "1.58.4",
+    "environment": "snowflake"
+}
